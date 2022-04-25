@@ -7,7 +7,7 @@
 <a href="https://github.com/GuillermoCervera">
   https://github.com/GuillermoCervera
 </a>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 20px">
+<div style="text-align: left; margin-top: 30px; margin-bottom: 20px">
   <h3>Introducción</h3>
   <p>
     El fútbol es un deporte que mueve a mucha gente, entre ellos a mis amigos y
@@ -31,7 +31,7 @@
     interesantes televisar en la temporada actual en nuestro bar deportivo.
   </p>
 </div>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 20px">
+<div style="text-align: left; margin-top: 30px; margin-bottom: 20px">
   <h3>Objetivo</h3>
   <p>
     Tras unos malos resultados económicos en el bar, debido a que los gastos
@@ -43,42 +43,54 @@
     negocio?
   </p>
 </div>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 20px">
+<div style="text-align: left; margin-top: 30px; margin-bottom: 20px">
   <h3>Resultados</h3>
   <p>
     Primero de todo, vamos a ver una tabla de los gastos e ingresos del bar.
   </p>
-  <iframe
-    title="TrabajoPractico"
-    width="1140"
-    height="541.25"
-    src="https://app.powerbi.com/reportEmbed?reportId=05c50478-393e-4384-a1a2-b34b99ba1474&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtZXVyb3BlLWItcHJpbWFyeS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D"
-    frameborder="0"
-    allowfullscreen="true"
-  ></iframe>
+  <div style="text-align: center">
+    <iframe
+      title="TrabajoPractico"
+      width="1140"
+      height="541.25"
+      src="https://app.powerbi.com/reportEmbed?reportId=05c50478-393e-4384-a1a2-b34b99ba1474&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtZXVyb3BlLWItcHJpbWFyeS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D"
+      frameborder="0"
+      allowfullscreen="true"
+    ></iframe>
+  </div>
   <p>
     En el siguiente gráfico vemos los diferentes tipos de gasto, con su
-    respectiva cantidad y mes.
+    respectiva cantidad y mes. En el eje X tenemos los tipos de gasto y en el
+    eje y, las cantidades. En la parte derecha se muestra una leyenda con los
+    meses.
   </p>
-  <iframe
-    width="1423"
-    height="371"
-    seamless
-    frameborder="0"
-    scrolling="no"
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSesZvcijeEL6OO_a4RNBUnNjwRkuaNejr6oevTYFIH0DBuLeGPpgXmimKpz8q9QayWxLiVjjQ8J0gW/pubchart?oid=639800126&amp;format=interactive"
-  ></iframe>
-  <p>Ahora vamos a visualizar un gráfico de los gastos e ingresos por mes.</p>
-  <iframe
-    title="Gastos por Ingresos"
-    aria-label="Stacked Bars"
-    id="datawrapper-chart-uTYAt"
-    src="https://datawrapper.dwcdn.net/uTYAt/1/"
-    scrolling="no"
-    frameborder="0"
-    style="width: 0; min-width: 100% !important; border: none"
-    height="383"
-  ></iframe>
+  <div style="text-align: center">
+    <iframe
+      width="1423"
+      height="371"
+      seamless
+      frameborder="0"
+      scrolling="no"
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSesZvcijeEL6OO_a4RNBUnNjwRkuaNejr6oevTYFIH0DBuLeGPpgXmimKpz8q9QayWxLiVjjQ8J0gW/pubchart?oid=639800126&amp;format=interactive"
+    ></iframe>
+  </div>
+  <p>
+    Ahora vamos a visualizar un gráfico de los gastos e ingresos por mes. En la
+    parte izquierda tenemos los meses. Aquí, disponemos de dos pestañas donde
+    podemos ir cambiando entre el gráfico de gastos y el de ingresos.
+  </p>
+  <div style="text-align: center">
+    <iframe
+      title="Gastos por Ingresos"
+      aria-label="Stacked Bars"
+      id="datawrapper-chart-uTYAt"
+      src="https://datawrapper.dwcdn.net/uTYAt/1/"
+      scrolling="no"
+      frameborder="0"
+      style="width: 0; min-width: 100% !important; border: none"
+      height="383"
+    ></iframe>
+  </div>
   <script type="text/javascript">
     !(function () {
       'use strict';
@@ -95,24 +107,26 @@
     })();
   </script>
   <p>
-    En él, podemos observar que los gastos e ingresos siguen una tendencia
-    ascendente tanto a nivel de gastos como de ingresos. El problema radica en
-    que la diferencia existente entre la cantidad de gastos e ingresos es muy
-    amplia, teniendo un nivel de gastos mucho más elevado que de ingresos. En
-    este gráfico, destacamos el mes de diciembre. En dicho mes, se generaron
-    32.000 € en gastos y 10.000 € en ingresos. El último mes del año fue el
-    último mes que estuvo el local abierto.
+    En el siguiente gráfico podemos observar que los gastos e ingresos siguen
+    una tendencia ascendente tanto a nivel de gastos como de ingresos. El
+    problema radica en que la diferencia existente entre la cantidad de gastos e
+    ingresos es muy amplia, teniendo un nivel de gastos mucho más elevado que de
+    ingresos. En este gráfico, destacamos el mes de diciembre. En dicho mes, se
+    generaron 32.000 € en gastos y 10.000 € en ingresos. El último mes del año
+    fue el último mes que estuvo el local abierto.
   </p>
-  <iframe
-    title="Gastos por Ingresos"
-    aria-label="Column Chart"
-    id="datawrapper-chart-TqJ0t"
-    src="https://datawrapper.dwcdn.net/TqJ0t/1/"
-    scrolling="no"
-    frameborder="0"
-    style="width: 0; min-width: 100% !important; border: none"
-    height="372"
-  ></iframe>
+  <div style="text-align: center">
+    <iframe
+      title="Gastos por Ingresos"
+      aria-label="Column Chart"
+      id="datawrapper-chart-TqJ0t"
+      src="https://datawrapper.dwcdn.net/TqJ0t/1/"
+      scrolling="no"
+      frameborder="0"
+      style="width: 0; min-width: 100% !important; border: none"
+      height="372"
+    ></iframe>
+  </div>
   <script type="text/javascript">
     !(function () {
       'use strict';
@@ -129,7 +143,7 @@
     })();
   </script>
 </div>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 20px">
+<div style="text-align: left; margin-top: 30px; margin-bottom: 20px">
   <h3>Conclusiones</h3>
   <p>
     Desde un prisma económico, podemos concluir que no valió la pena abrir el
@@ -137,7 +151,7 @@
     ingresos. Algo que se acrecentó con el paso de los meses.
   </p>
 </div>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 20px">
+<div style="text-align: left; margin-top: 30px; margin-bottom: 20px">
   <h3>Otros datos de interés</h3>
   <h4>Justificación de herramientas las utilizadas</h4>
   <p>
@@ -154,8 +168,8 @@
     <li>
       Gráfico de columnas apiladas: se ha escogido este tipo de gráfico porque
       podemos visualizar la diferencia existente, a nivel de cantidades, de los
-      diferentes gastos e ingresos. Nos permite obtener información
-      rápidamente de la diferencia entre gastos e ingresos.
+      diferentes gastos e ingresos. Nos permite obtener información rápidamente
+      de la diferencia entre gastos e ingresos.
     </li>
     <li>
       Gráfico de barras apiladas: se eligió este gráfico porque nos da
@@ -163,7 +177,8 @@
     </li>
     <li>
       Gráfico de columnas: este gráfico ha sido escogido porque nos permite
-      visualizar la tendencia, en este caso creciente, que había en los gastos e ingresos. Siendo los gastos tres veces mayor que los ingresos en todos los
+      visualizar la tendencia, en este caso creciente, que había en los gastos e
+      ingresos. Siendo los gastos tres veces mayor que los ingresos en todos los
       meses. Obteniendo esta gran información.
     </li>
   </ul>
